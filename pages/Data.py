@@ -21,7 +21,7 @@ Data_Path = os.path.join(dir_of_interest,"laptop_details.csv")
 df = pd.read_csv(Data_Path)
 
 st.subheader("DataSets")
-Data_Path = os.path.join(dir_of_interest,"laptop_price_prediction.csv")
+Data_Path = os.path.join(dir_of_interest,"Laptop_price_prediction.csv")
 
 df_1 = pd.read_csv(Data_Path)
 
