@@ -17,7 +17,7 @@ PARENT_DIR = os.path.join(FILE_DIR, os.pardir)
 # absolute path of directory_of_interest
 dir_of_interest = os.path.join(PARENT_DIR, "resources")
 
-Data_Path = os.path.join(dir_of_interest,"laptop_price_prediction.csv")
+Data_Path = os.path.join(dir_of_interest,"Laptop_price_prediction.csv")
 
 
 df = pd.read_csv(Data_Path)
