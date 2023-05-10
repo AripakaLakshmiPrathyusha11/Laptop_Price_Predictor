@@ -9,7 +9,7 @@ FILE_DIR = os.path.dirname(os.path.abspath(__file__))
 # absolute path to this file's root directory
 PARENT_DIR = os.path.join(FILE_DIR, os.pardir)
 # absolute path of directory_of_interest
-dir_of_interest = os.path.join(PARENT_DIR, "laptop_prediction")
+dir_of_interest = os.path.join(PARENT_DIR, "images")
 
 st.set_page_config(page_title ="Portfolio", page_icon=":tada:", layout="wide")
 st.title(":red[_Portfolio_]")
@@ -28,7 +28,7 @@ lottie_coding = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_wp
 # ----Header section----
 title_container = st.container()
 col1, col2 = st.columns([20, 50])
-IMAGE_PATH = os.path.join(dir_of_interest, "images", "Lakshmi prathyusha.jpg")
+IMAGE_PATH = os.path.join(dir_of_interest,  "Lakshmi prathyusha.jpg")
 
 with title_container:
     with col1:
